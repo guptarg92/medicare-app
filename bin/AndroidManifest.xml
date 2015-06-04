@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.medicareproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+<uses-permission android:name="android.permission.CALL_PHONE"/>
+<uses-permission android:name="android.permission.SEND_SMS"/>
+<uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.medicareproject.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Choose2" android:screenOrientation="portrait"/>
+        <activity android:name="Common4" android:screenOrientation="portrait"/>
+        <activity android:name="Adap_com" android:screenOrientation="portrait"/>
+        <activity android:name="Details4" android:screenOrientation="portrait"/>
+        <activity android:name="Infection4" android:screenOrientation="portrait"/>
+        <activity android:name="Noncomm" android:screenOrientation="portrait"/>
+        <activity android:name="MedicareDbAdapter" android:screenOrientation="portrait"/>
+        <activity android:name="Comm" android:screenOrientation="portrait"/>
+        <activity android:name="SMS" android:screenOrientation="portrait"/>
+        <activity android:name="Call" android:screenOrientation="portrait"/>
+        <activity android:name="Email" android:screenOrientation="portrait"/>
+        <activity android:name="Play"
+             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+             android:label="@string/app_name"
+              android:screenOrientation="landscape"/>
+        <activity android:name="insert" android:screenOrientation="portrait"/>
+        <activity android:name="update" android:screenOrientation="portrait"/>
+        <activity android:name="delete" android:screenOrientation="portrait"/>
+        <activity android:name="display" android:screenOrientation="portrait"/>
+        <activity android:name="Patientdb" android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <item android:id="@+id/insert"
+        
+        android:title="Insert">
+        
+        
+    </item>
+    <item android:id="@+id/display"
+       
+        android:title="Display">
+        
+    </item>
+    <item android:id="@+id/update"
+      
+        android:title="Update">
+        
+    </item>
+    <item android:id="@+id/delete"
+        
+        android:title="Delete">
+        
+    </item>
+
+<item android:id="@+id/exit"
+        android:icon="@drawable/exit1"
+        android:title="Exit">
+        </item>
+
+</menu>
